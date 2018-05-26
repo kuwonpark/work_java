@@ -2,7 +2,7 @@ package ch02;
 
 import java.util.*;
 
-public class Ch02Ex02_08 {
+public class Ch02Ex02_09 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -13,16 +13,15 @@ public class Ch02Ex02_08 {
 		
 		float num = Float.parseFloat(input);
 		float num2 = Float.parseFloat(input2);
-		//double num = Double.parseDouble(input);
-		//double num2 = Double.parseDouble(input2);
-	    
+		double num3 = Double.parseDouble(input3);
 		
-		System.out.printf("%.2f%n",num);
-		System.out.printf("%.2f%n",num2);
-		System.out.println(input3);
-		//System.out.printf("%s",input3);
-
-
+		
+		System.out.printf("%.3f",num);
+		System.out.printf("%.3f",num2);
+		System.out.printf("%.3f",num3);
+		//System.out.printf("%.3f%n",num);
+		//System.out.printf("%.3f%n",num2);
+		
 	}
 
 }

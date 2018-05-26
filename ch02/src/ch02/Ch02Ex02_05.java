@@ -8,10 +8,14 @@ public class Ch02Ex02_05 {
      Scanner scanner = new Scanner(System.in);
 		
 	 String input = scanner.nextLine();
-	 int num = Integer.parseInt(input);
 	 String input2 = scanner.nextLine();
+	 
+	 int num = Integer.parseInt(input);
 	 float num2 = Float.parseFloat(input2);
-	 System.out.printf("%d*%f = %f%n",num , num2, num*num2);
+	 
+	 float result = num* num2;// 변수 선언 이용
+	 
+	 System.out.printf("%d*%f = %f%n",num , num2, result);// 변수 이용해서 계산
 		
 
 	}

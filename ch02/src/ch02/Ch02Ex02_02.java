@@ -10,6 +10,7 @@ public class Ch02Ex02_02 {
 	String input = scanner.nextLine();
 	int num = Integer.parseInt(input);
 	System.out.println(num);
+	//System.out.printf("%d",num);
 
 	}
 

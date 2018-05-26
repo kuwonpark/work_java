@@ -8,10 +8,14 @@ public class Ch02Ex02_07 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.printf("height = ");
+		//System.out.print("height = ");	
 		
 		String input = scanner.nextLine();
+		
 		int num = Integer.parseInt(input);
+		
 		System.out.printf("Your height is %dcm%n",num);
+		//System.out.printf("Your height is %dcm.",num);
 
 	}
 
