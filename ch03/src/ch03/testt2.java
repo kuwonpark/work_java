@@ -2,7 +2,7 @@ package ch03;
 
 import java.util.*;
 
-public class test3 {
+public class testt2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -12,15 +12,13 @@ public class test3 {
 		int num = Integer.parseInt(input);
 		int num2 = Integer.parseInt(input2);
 		
+		int x = num+5;
+		int y = num2*2;
+		int z = x*y;
 		
-		int x = num++*--num2;
+		System.out.printf("width = %d%nlength = %d%narea = %d%n"
+				,x,y,z);
 		
-		
-		
-		
-		System.out.printf("%d %d %d%n",num,num2,x);
-
-
 	}
 
 }

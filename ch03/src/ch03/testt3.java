@@ -2,25 +2,18 @@ package ch03;
 
 import java.util.*;
 
-public class test3 {
+public class testt3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
 		String input = scanner.nextLine();
 		String input2 = scanner.nextLine();
 
-		int num = Integer.parseInt(input);
-		int num2 = Integer.parseInt(input2);
+		int x= Integer.parseInt(input);
+		int y = Integer.parseInt(input2);
 		
-		
-		int x = num++*--num2;
-		
-		
-		
-		
-		System.out.printf("%d %d %d%n",num,num2,x);
-
-
+		System.out.printf("%d %d%n",++x,y--);
+		System.out.printf("%d %d",x,y);
 	}
 
 }
