@@ -16,10 +16,15 @@ public class testtt4 {
 		double num3 = Double.parseDouble(input3);
 		
 		
-		int x = (int)(num+num2+num3);
-		int y = (int)(num+num2+num3)/3;
+		int x = (int)(num);
+		int y =(int)(num2);
+		int z =(int)(num3);
 		
-		System.out.printf("sum%d avg%d",x,y );
+		
+		int a = (int)(num+num2+num3)/3;
+		int b = x+y+z;
+		
+		System.out.printf("sum%d%navg%d",b,a );
 	}
 
 }
