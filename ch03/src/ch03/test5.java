@@ -11,6 +11,8 @@ public class test5 {
 
 		int num = Integer.parseInt(input);
 		int num2 = Integer.parseInt(input2);
+		//int num = Integer.paresInt(scanner.nextLine());
+		//int num2 = Integer.paresInt(scanner.nextLine());
 		
 	
 		

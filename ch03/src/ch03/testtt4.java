@@ -9,21 +9,29 @@ public class testtt4 {
 		String input = scanner.nextLine();
 		String input2 = scanner.nextLine();
 		String input3 = scanner.nextLine();
+		//String[] numbers = scanner.nextLine()split(" ")
+
+		//double num = Double.patseDouble(nembers[0]);
+		//double num2 = Double.patseDouble(nembers[1]);
+		//double num3 = Double.patseDouble(nembers[2]);
 		
-		
-	    double num = Double.parseDouble(input);
+
+
+
+
+		double num = Double.parseDouble(input);
 		double num2 = Double.parseDouble(input2);
 		double num3 = Double.parseDouble(input3);
-		
-		
+
+
 		int x = (int)(num);
 		int y =(int)(num2);
 		int z =(int)(num3);
-		
-		
+
+
 		int a = (int)(num+num2+num3)/3;
 		int b = x+y+z;
-		
+
 		System.out.printf("sum%d%navg%d",b,a );
 	}
 

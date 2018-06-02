@@ -9,14 +9,14 @@ public class test2 {
 		String input = scanner.nextLine();
 		
 		int num = Integer.parseInt(input);
+		//int num = Integer.parseInt(scanner.nextLine());
 		
-		//num = num++;
 		
 		System.out.printf("%d%n", num++);
-		
-		//num = ++num;
 		System.out.println(++num);
-		
+		// System.out.println(num++);
+		//++num;
+		//System.out.println(num);
 		
 		
 	}

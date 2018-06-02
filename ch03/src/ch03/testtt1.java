@@ -5,6 +5,10 @@ import java.util.*;
 public class testtt1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		//String[] numbers = scanner.nextLine()split(" ")
+		
+        //double num = Double.patseDouble(nembers[0]);
+		//double num2 = Double.patseDouble(nembers[1]);
 
 		String input = scanner.nextLine();
 		String input2 = scanner.nextLine();
@@ -27,10 +31,11 @@ public class testtt1 {
 	     */
 	    int y = (int)num;
 	    int z = (int)num2;
-	    
+	    //int y = (int)num*(int)num2;
 	    
 	  	//출력
 	    System.out.printf("%d %d",x,y*z);
+	    //System.out.printf("%d %d",x,y);
 	}
 
 }
