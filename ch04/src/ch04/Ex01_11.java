@@ -8,10 +8,13 @@ public class Ex01_11 {
 		
 		int num = Integer.parseInt(scanner.nextLine());
 		
-		if(num>0? "plus" :(num<0? "minus":"zero")) {
-			System.out.println("");
-			
+		if(num > 0) {
+			System.out.println("plus");
+		}else if(num < 0){
+			System.out.println("minus");
+		}else{
+			System.out.println("zero");
+		}
+					
 		}
 	}
-
-}

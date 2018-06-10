@@ -9,11 +9,13 @@ public class Ex01_10 {
 		int num = Integer.parseInt(numbers[0]);
 		int num2 = Integer.parseInt(numbers[1]);
 		
-		if (num<num2) {
-			System.out.println();
-		}else if(num>num2){
+		int result;
+		
+		if (num <= num2) {
+			System.out.println(num-num2);
+		}else if(num => num2){
+			System.out.println(num2-num);
 		}
-		System.out.println(num-num2);
 	}
 
 }
