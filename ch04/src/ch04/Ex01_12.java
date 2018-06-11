@@ -10,9 +10,9 @@ public class Ex01_12 {
 		Scanner scanner = new Scanner(System.in);
 		int year = Integer.parseInt(scanner.nextLine());
 		
-		int result = year/400;
-		int result1 = year/4;
-		int result2 = year/100;
+		double result = year/400;
+		double result1 = year/4;
+		double result2 = year/100;
 		
 		if(result == 0) {
 			System.out.println("leap year");
@@ -24,6 +24,6 @@ public class Ex01_12 {
 			System.out.println("common year");
 		}
 
-	}ㄴㅇㅁㅇㅁ
+	}
 
 }

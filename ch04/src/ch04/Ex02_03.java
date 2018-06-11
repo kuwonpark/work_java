@@ -3,22 +3,28 @@ package ch04;
 import java.util.*;
 
 public class Ex02_03 {
-
 	public static void main(String[] args) {
-		int num = 0;
-		int sum = 0;
 		Scanner scanner = new Scanner(System.in);
-		 num = Integer.parseInt(scanner.nextLine());
+		int num = 0;
 		
-		while(num<=100) {
-			sum += num;
-			num++;
-
-						
-			System.out.print(sum);
+		while(true){
+			System.out.print("정수를 입력하세요.(0:종료)>");
+		
+		String tmp = scanner.nextLine();
+		num = Integer.parseInt(tmp);
+				
+		if(num>0){
+			
+			System.out.println("positive integer");
+			
+		}else if(num<0){
+			
+			System.out.println("negative integer");
+		}else if(num == 0) {
+			break;
+			
 		}
-		
-
+		}
 	}
 
 }
