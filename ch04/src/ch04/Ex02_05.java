@@ -7,7 +7,9 @@ public class Ex02_05 {
 		Scanner scanner = new Scanner(System.in);
 		int num = Integer.parseInt(scanner.nextLine());
 		
-		while()
+		while(num%3) {
+			
+		}
 	}
 
 }

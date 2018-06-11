@@ -10,7 +10,7 @@ public class Ex02_02 {
 		int  sum = 0;
 		
 		
-		while(true) {
+		while() {
 			num++;
 			System.out.println();
 			
