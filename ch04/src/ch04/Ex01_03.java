@@ -9,7 +9,7 @@ public class Ex01_03 {
 		
 		int age = Integer.parseInt(scanner.nextLine());
 		
-		if(age>20) {
+		if(age>=20) {
 			System.out.println("adult");
 		}else if(age<20){
 			

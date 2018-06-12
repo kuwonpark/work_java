@@ -9,7 +9,7 @@ public class Ex01_07 {
 		String spell;
 		spell = scanner.nextLine();
 		
-		// 112쪽
+		// 112쪽 ,  switch 문을 사용 하는게 편함
 		if(spell.equals("A")) {
 			System.out.println("Excellent");
 		}else if(spell.equals("B")) {

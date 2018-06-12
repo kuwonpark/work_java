@@ -14,12 +14,17 @@ public class Ex01_06 {
 		
 		if(spell.equals("M") && num2 >=18) {
 			System.out.println("MAN");
-		} if(spell.equals("M") && num2 < 18){
+		} 
+		
+		if(spell.equals("M") && num2 < 18){
 			System.out.println("BOY");
 		}
+		
 		if(spell.equals("F") && num2 >=18) {
 			System.out.println("WOMAN");
-		} if(spell.equals("F") && num2 < 18) {
+		} 
+		
+		if(spell.equals("F") && num2 < 18) {
 			System.out.println("GIRL");
 		}
 

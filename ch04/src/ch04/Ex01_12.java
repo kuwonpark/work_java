@@ -10,20 +10,18 @@ public class Ex01_12 {
 		Scanner scanner = new Scanner(System.in);
 		int year = Integer.parseInt(scanner.nextLine());
 		
-		double result = year/400;
-		double result1 = year/4;
-		double result2 = year/100;
+		boolean case01 = year%400 == 0;
+		boolean case02 = year%4 == 0 &&year%100 != 0;
 		
-		if(result == 0) {
+		
+		
+		if(case01||case02) {
 			System.out.println("leap year");
-		}else if(result1 == 0){
-			System.out.println("leap year");
-		}else if(result2 != 0) {
-			System.out.println("leap year");
+		
 		}else{
 			System.out.println("common year");
 		}
 
-	}
+	}da
 
 }

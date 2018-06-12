@@ -14,6 +14,8 @@ public class Ex01_02 {
 		
 		if(result>0) {
 			System.out.printf("%d%nObesity",result);
+			
+			
 		}
 
 	}
