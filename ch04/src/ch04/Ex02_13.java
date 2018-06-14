@@ -10,9 +10,9 @@ public class Ex02_13 {
 		int num = Integer.parseInt(numbers[0]);
 		int num2 = Integer.parseInt(numbers[1]);
 		
-		for(int i = 1; i == num; i++) {
-		for(int j = 1; j == num2; j++) {
-			System.out.print(i+j);
+		for(int i = 1; i <= num; i++) {
+		for(int j = 1; j <= num2; j++) {
+			System.out.print(j*i + " ");
 			
 		}
 		System.out.println();
