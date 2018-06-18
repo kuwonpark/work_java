@@ -7,6 +7,7 @@ public class Ex02_10 {
 		//1. 3의 배수와 5의 배수가 아닌 수의 개수를 저장 변수 선언 및초기화
 		int count = 0;
 		
+		while(true) {
 		Scanner scanner = new Scanner(System.in);
 		int num = Integer.parseInt(scanner.nextLine());
 		
@@ -19,4 +20,6 @@ public class Ex02_10 {
 	}
 	System.out.println(count);
 	
+}
+
 }

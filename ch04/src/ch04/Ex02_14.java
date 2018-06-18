@@ -21,8 +21,14 @@ public class Ex02_14 {
 			System.out.println();
 		}
 		else if(num > num2) {
+			for (int i = 1; i <= 9; i++) {
+				for (int j = num; j >= num2; j--) {
+					System.out.printf("%d * %d =%3d   ", j, i, j * i);
+				}
+				System.out.println();
 			
 		}
 	}
 
+}
 }
