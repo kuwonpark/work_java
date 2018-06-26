@@ -4,18 +4,13 @@ import java.util.Scanner;
 
 public class dsadsa {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		String[] alpa = scanner.nextLine().split(" ");
-		
-		char[] result = new char [alpa.length];
-		for(int i = 0; i<alpa.length; i++) {
-			String tmp = alpa[i];
-			char tmp2 = tmp.charAt(0);
-			result[i]= tmp2;
+		Scanner scanner= new Scanner(System.in);
+		int numbers = Integer.parseInt(scanner.nextLine());
+
+		int [] num = new int [100];
+		for(int i = 0; i<num.length; i--) {
 			
 		}
-		System.out.println();
-		
 	}
 	
 	}

@@ -31,7 +31,7 @@ public class Ch05Ex01_14 {
 
 			// 입력받은 정수를 a? 배열에 저장하기
 			for(int i = 0; i < numbers.length; i++) {
-				a1[j][i] = Integer.parseInt(numbers[i]);
+				a2[j][i] = Integer.parseInt(numbers[i]);
 			}
 		}
 
