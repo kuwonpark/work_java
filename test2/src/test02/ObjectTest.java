@@ -3,9 +3,11 @@ package test02;
 public class ObjectTest extends Object{
 	
 	public int a;
+	
 	public ObjectTest(int a) {
-		this.a=a;
+	this.a=a;
 	}
+	
 	public boolean test(ObjectTest ot) {
 		return this.a == ot.a;
 	}
